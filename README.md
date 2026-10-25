@@ -18,7 +18,7 @@ Haique 27 是一套面向多旋翼无人机高机动飞行与自主控制的强�
 
 ## 环境同步
 
-### 1. 安装极速包管理器 uv
+### 1. 安装包管理器 uv
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
