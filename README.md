@@ -7,7 +7,7 @@ Haique 27 是一套面向多旋翼无人机高机动飞行与自主控制的强�
 ## 软件版本
 
 - **操作系统**: Ubuntu 24.04 LTS
-- **Python 运行时**: `Python 3.12
+- **Python 运行时**: Python 3.12
 - **包管理器**: `uv`
 - **仿真底座**: Isaac Sim 6.2.0.0 + Isaac Lab 3.0.0
 - **深度学习核心**: PyTorch 2.11.0 + CUDA 13.0
