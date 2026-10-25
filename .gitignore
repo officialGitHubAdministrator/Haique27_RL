@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Training Logs & Checkpoints
+logs/
+checkpoints/
+runs/
+*.tfevents.*
+wandb/
+
+# Model weights & binaries (avoid uploading large checkpoints)
+*.pt
+*.pth
+*.bin
+
+# Isaac Sim / Omniverse local data & cache
+.local/
+_build/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
