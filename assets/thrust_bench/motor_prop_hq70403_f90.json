@@ -1,0 +1,37 @@
+{
+  "benchmark_metadata": {
+    "date": "2026-10-31",
+    "motor": "T-Motor F90 1300KV",
+    "propeller": "HQProp 70403 (7x4x3)",
+    "battery_voltage_v": 24.0,
+    "esc_protocol": "DShot600",
+    "test_stand": "MT10PRO Thrust Stand"
+  },
+  "fitted_model": {
+    "polynomial_order": 2,
+    "formula": "thrust_newtons = c2 * u^2 + c1 * u + c0",
+    "coefficients": {
+      "c2": 14.28,
+      "c1": 8.84,
+      "c0": 0.0
+    },
+    "r_squared": 0.9957
+  },
+  "dynamics_summary": {
+    "max_thrust_single_motor_g": 2360.0,
+    "max_thrust_single_motor_n": 23.15,
+    "max_thrust_quad_n": 92.60,
+    "estimated_auw_g": 1200.0,
+    "thrust_to_weight_ratio": 7.87,
+    "hover_throttle_ratio": 0.282
+  },
+  "calibration_points": [
+    {"throttle": 0.10, "thrust_g": 120.0, "thrust_n": 1.18, "current_a": 0.8},
+    {"throttle": 0.20, "thrust_g": 250.0, "thrust_n": 2.45, "current_a": 1.8},
+    {"throttle": 0.28, "thrust_g": 300.0, "thrust_n": 2.94, "current_a": 2.5},
+    {"throttle": 0.40, "thrust_g": 580.0, "thrust_n": 5.69, "current_a": 5.4},
+    {"throttle": 0.60, "thrust_g": 1150.0, "thrust_n": 11.28, "current_a": 13.5},
+    {"throttle": 0.80, "thrust_g": 1780.0, "thrust_n": 17.46, "current_a": 24.2},
+    {"throttle": 1.00, "thrust_g": 2360.0, "thrust_n": 23.15, "current_a": 36.5}
+  ]
+}
