@@ -2,14 +2,6 @@
 
 Haique 27 是一套面向多旋翼无人机高机动飞行与自主控制的具身智能强化学习全栈系统。项目依托 NVIDIA Isaac Lab 高保真物理仿真器进行策略训练，并通过标准 ONNX 运行时闭环部署于机载嵌入式计算平台与 PX4 开源飞控。
 
-> 📖 **项目文档与规格指南**：
-> - 核心项目全景规格说明书：[docs/PROJECT_SPEC.md](docs/PROJECT_SPEC.md)
-> - AI 助手协同上下文规范：[AGENTS.md](AGENTS.md)
-> - 硬件电气清单与实测推力：[docs/HARDWARE_ARCHITECTURE.md](docs/HARDWARE_ARCHITECTURE.md)
-> - PX4 飞控刷机与安全遥控通道：[docs/FLIGHT_CONTROL_PX4.md](docs/FLIGHT_CONTROL_PX4.md)
-> - 虚实坐标系与数据通信契约：[docs/INTERFACE_CONTRACT.md](docs/INTERFACE_CONTRACT.md)
-
----
 
 ## 软件版本
 
